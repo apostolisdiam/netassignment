@@ -5,7 +5,7 @@ using System.Web;
 
 namespace netassignment.Models
 {
-    public class Transactions : Account
+    public class Transactions 
     {
         public int ID { get; set; }
         public string AccountID { get; set; }
