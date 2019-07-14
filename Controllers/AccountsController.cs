@@ -18,7 +18,6 @@ namespace netassignment.Controllers
             return item;
         }
         
-
         public IEnumerable<Account> GetAllAccounts()
         {
             return repository.GetAll();
@@ -33,6 +32,8 @@ namespace netassignment.Controllers
             }
             return item;
         }
+
+
             
     }
 }
